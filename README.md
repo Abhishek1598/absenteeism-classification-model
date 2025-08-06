@@ -29,7 +29,7 @@ This project focuses on analyzing patterns in employee absenteeism and building 
 |------|-------------|
 | `Project_Absenteeism.ipynb` | Full EDA, modeling, and evaluation notebook |
 | `absenteeism_module.py` | Python class for deploying the model |
-| `model.pkl` / `scaler.pkl` | Serialized model and scaler |
+| `model` / `scaler` | Serialized model and scaler |
 | `Absenteeism_predictions.csv` | Sample prediction output |
 | `final_summary_markdown.md` | Summary of entire project |
 | `requirements.txt` | Dependencies for the project |
