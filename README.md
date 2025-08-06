@@ -41,7 +41,7 @@ This project focuses on analyzing patterns in employee absenteeism and building 
 ```python
 from absenteeism_module import absenteeism_model
 
-model = absenteeism_model('model.pkl', 'scaler.pkl')
+model = absenteeism_model('model', 'scaler')
 model.load_and_clean_data('new_data.csv')
 results = model.predicted_outputs()
 results.to_csv('Absenteeism_predictions.csv', index=False)
